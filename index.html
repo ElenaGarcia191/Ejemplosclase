@@ -4,14 +4,14 @@
     </head>
      <body>
     <a-scene>
-      <a-box position="-1 0.10 -3" rotation="0 45 0" color="#C0392B "></a-box>
+      <a-box position="1 0.10 -3" rotation="0 45 0" color="#C0392B "></a-box>
       <a-sphere position="0 1.30 -5" radius="1.5" color="#239B56"></a-sphere>
       <a-cylinder position="1 0.80 -3" radius="0.80" height="1.5" color="#FFC65D"></a-cylinder>
       <!-- Textured ring. -->
-      <a-ring src="#texture"></a-ring>
+      <a-ring src="#texture" position="1 1.0 -3"></a-ring>
   <!-- Basic triangle. --> 
       <a-triangle color="#eb984e" vertex-c="1 -1 0"></a-triangle>
-      <a-torus color="#43A367" arc="270" radius="3" radius-tubular="0.1"></a-torus>
+      <a-torus color="#43A367" arc="270" radius="3" radius-tubular="0.1" position="1 0.60 -3"></a-torus>
       <a-plane position="0 0 -5" rotation="-90 0 0" width="8" height="5" color="#baff98"></a-plane>
       <a-sky color="#AED6F1"></a-sky>
     </a-scene>
